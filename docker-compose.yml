@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  memintense:
+    build: .    
+    mem_limit: 192m
+    memswap_limit: 192m 
